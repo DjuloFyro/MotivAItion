@@ -10,6 +10,7 @@ const Description = () => {
             Depending on your specific personnality and situation, motivAItion will give you the best advice to become a better human.
             <br/>
             <br/>
+            </p>
             <div className="module-list">
                 For now you can choose between 3 modules: 
                 <ul>
@@ -18,7 +19,6 @@ const Description = () => {
                 <li>Sociability: to help you to make connections with new people and socialize more without changing your personnality.</li>
                 </ul>
             </div>
-            </p>
         </section>
     )
 }

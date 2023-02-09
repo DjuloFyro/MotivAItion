@@ -15,7 +15,7 @@
     color: #CBCBCB;
 }
 
-.description-text {
+.description-text, .module-list {
     margin: auto;
     padding: 15px 15px 15px 30px;
     font-size: 1.3em;
