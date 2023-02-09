@@ -1,15 +1,18 @@
 import React, {useState, useEffect} from "react"
-import Tittleapp from "./components/Titleapp";
-import Description from "./components/Description";
-import Session from "./components/Session";
+import { BrowserRouter as Router, Routes, Route}
+    from 'react-router-dom';
+
+import MainPage from "./pages/MainPage";
+import Form from "./pages/Form";
 
 function App() {
   return (
-    <div>
-      <Tittleapp/>
-      <Session/>
-      <Description />
-    </div>
+    <Router>
+    <Routes>
+        <Route exact path='/' element={<MainPage />} />
+        <Route path='/form' element={<Form />} />
+    </Routes>
+    </Router>
   )
 }
 
