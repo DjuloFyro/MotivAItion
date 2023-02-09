@@ -1,0 +1,20 @@
+h1 {
+    color: #CBCBCB;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 70px;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+    margin-bottom: 25px;
+}
+
+strong {
+    color: #E32636;
+}
+
+.slogan {
+    text-align: center;
+    font-family: 'Judson', serif;
+    font-size: 1.2em;
+    color: #CBCBCB;
+    margin-bottom: 180px;
+}
